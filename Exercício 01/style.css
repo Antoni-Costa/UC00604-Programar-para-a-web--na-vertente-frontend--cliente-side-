@@ -1,11 +1,10 @@
-/* Configurações Gerais */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
     color: #333;
     line-height: 1.6;
     margin: 0;
-}
+} /* Container Principal, aqui vamos configurar o layout principal para o conteúdo central */
 
 .container {
     width: 90%;
@@ -17,20 +16,20 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-/* Cabeçalho e Navegação */
 header {
     text-align: center;
     border-bottom: 2px solid #e50914;
     margin-bottom: 30px;
     padding-bottom: 10px;
-}
+} 
+
 
 nav {
     background: #1a1a1a;
     padding: 15px;
     border-radius: 8px;
     margin-top: 15px;
-}
+} 
 
 nav a {
     color: white;
@@ -43,9 +42,9 @@ nav a {
 
 nav a:hover {
     color: #e50914;
-}
+} /* Cabeçalho e Navegação, aqui vamos configurar o cabeçalho e a navegação do site */
 
-/* Hero Section (Página Inicial) */
+
 .hero {
     background-color: #1a1a1a;
     color: white;
@@ -61,17 +60,16 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     margin-bottom: 20px;
-}
+} /* Hero Section (Página Inicial), aqui criamos o hero section para melhorar a apresentação sem necessidade de repetição */
 
-/* Tabelas (Programação) */
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     border-radius: 8px;
     overflow: hidden;
-}
-
+} 
 th {
     background-color: #e50914;
     color: white;
@@ -86,9 +84,10 @@ td {
 
 tr:hover {
     background-color: #f1f1f1;
-}
+} /* Tabelas (Sessões) */
 
-/* Formulários (Contacto) */
+
+
 form {
     display: flex;
     flex-direction: column;
@@ -116,4 +115,4 @@ button {
 
 button:hover {
     background-color: #b20710;
-}
+} /* Formulários (Contacto) acho que já sabemos do que é haha */
