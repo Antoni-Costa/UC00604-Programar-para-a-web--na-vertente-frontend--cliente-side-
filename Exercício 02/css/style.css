@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap'); /* Importa a fonte Quicksand */
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -9,7 +9,7 @@ body {
 
 .rounded-fofo {
     border-radius: 25px !important;
-}
+} /* Classe personalizada para bordas arredondadas e fofas a pedido do prof  */
 
 .navbar {
     background-color: #ffffff;
